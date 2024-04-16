@@ -5,6 +5,7 @@ import { MdLocationPin } from "react-icons/md";
 import { BsCart4 } from "react-icons/bs";
 import { IoIosNotifications } from "react-icons/io";
 import { BsThreeDotsVertical } from "react-icons/bs";
+import { TbScanEye } from "react-icons/tb";
 const Header = () => {
 
    const RouterData = [
@@ -47,7 +48,8 @@ const Header = () => {
          </div>
          <div>
             <input placeholder='search'/>
-            <MdOutlineSearch/>
+            <span><TbScanEye /></span>
+            <span><MdOutlineSearch/></span>
          </div>
          <div>
             <span><MdLocationPin/></span>
